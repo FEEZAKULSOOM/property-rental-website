@@ -1,0 +1,119 @@
+/* Listing page container */
+#listing {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #faf3e8;
+    padding-top: 185px;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+/* Listing form */
+#listing form {
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form title */
+#listingTitle {
+    font-size: 40px;
+    font-weight: 500;
+    color: #0A1F33;
+    margin-bottom: 25px;
+}
+
+/* Form field container */
+#listing .list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Field labels */
+#listing .list label {
+    font-size: 20px;
+    font-weight: 300;
+    color: #0A1F33;
+}
+
+/* Input fields */
+#listing .list input,
+#listing .list textarea {
+    width: 90%;
+    background-color: #faf3e8;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid #0A1F33;
+}
+
+/* Textarea specific */
+#listing .list textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Focus state */
+#listing .list input:focus,
+#listing .list textarea:focus {
+    border: 2px solid #C89B3C;
+}
+
+/* Form buttons */
+form button {
+    border: 1px solid #C89B3C;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #fff;
+    color: #0A1F33;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.2s;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #C89B3C;
+    box-shadow: 1.2px 1.2px 3px #C89B3C;
+}
+
+/* Button icon */
+#listingBtn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* File input styling */
+#listing .list input[type="file"] {
+    width: 90%;
+    padding: 8px;
+    border-bottom: 1px solid #0A1F33;
+    background-color: #faf3e8;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* File input focus */
+#listing .list input[type="file"]:focus {
+    outline: none;
+    border-bottom: 1px solid #C89B3C;
+    background-color: #C89B3C;
+    color: white;
+}

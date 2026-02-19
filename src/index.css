@@ -1,0 +1,27 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Fixed navigation positioning */
+#nav {
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+/* Remove link underlines */
+a {
+  text-decoration: none;
+}
+
+/* Global background */
+body {
+  background: #faf3e8;
+}

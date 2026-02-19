@@ -1,0 +1,119 @@
+/* Contact page container */
+#contact {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #faf3e8;
+    padding-top: 185px;
+    padding-bottom: 30px;
+}
+
+/* Contact button icon */
+#contactBtn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Contact form */
+#contact form {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form title */
+#contactTitle {
+    font-size: 40px;
+    font-weight: 500;
+    color: #0A1F33;
+    margin-bottom: 25px;
+}
+
+/* Form field container */
+#contact .list {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Field labels */
+#contact .list label {
+    font-size: 20px;
+    font-weight: 300;
+    color: #0A1F33;
+}
+
+/* Input fields */
+#contact .list input {
+    width: 90%;
+    background-color: #faf3e8;
+    padding: 3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #0A1F33;
+}
+
+/* Input focus */
+#contact .list input:focus {
+    border: 2px solid #C89B3C;
+}
+
+/* Textarea field */
+#contact .list textarea {
+    width: 90%;
+    background-color: #faf3e8 !important;
+    padding: 3px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #0A1F33;
+    font-family: inherit;
+    resize: vertical;
+}
+
+/* Textarea focus */
+#contact .list textarea:focus {
+    border: 2px solid #C89B3C;
+}
+
+/* Submit button */
+#contact form button {
+    border: 1px solid #C89B3C;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #fff;
+    color: #0A1F33;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.2s;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #C89B3C;
+    box-shadow: 1.2px 1.2px 3px #C89B3C;
+}

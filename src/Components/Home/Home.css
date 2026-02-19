@@ -1,0 +1,10 @@
+/* Home page grid layout */
+#home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 180px;
+    gap: 30px;
+}

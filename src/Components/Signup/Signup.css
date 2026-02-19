@@ -1,0 +1,74 @@
+/* Signup page container */
+#signup {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #faf3e8;
+    padding-top: 185px;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+/* Signup form */
+#signup form {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Signup button icon */
+#signupBtn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Form title */
+#signupTitle {
+    font-size: 40px;
+    font-weight: 500;
+    color: #0A1F33;
+    margin-bottom: 25px;
+}
+
+/* Form field container */
+#signup .list {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Field labels */
+#signup .list label {
+    font-size: 20px;
+    font-weight: 300;
+    color: #0A1F33;
+}
+
+/* Input fields */
+#signup .list input {
+    width: 90%;
+    background-color: #faf3e8;
+    padding: 3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #0A1F33;
+}
+
+/* Input focus */
+#signup .list input:focus {
+    border: 2px solid #C89B3C;
+}
