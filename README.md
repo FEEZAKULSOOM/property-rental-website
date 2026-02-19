@@ -63,7 +63,7 @@
 
 ### 🌐 **Experience Live**
 
-**👉 [https://private-property-rental.netlify.app/](https://private-property-rental.netlify.app/)**
+**👉 [https://private-property-rental1.netlify.app/](https://private-property-rental1.netlify.app/)**
 
 | Category | Sample Properties |
 |----------|-------------------|
@@ -268,7 +268,7 @@ MIT License © 2026 **Private Property Rental**
 
 If you like this project, please consider giving it a ⭐ on GitHub!
 
-[![GitHub stars](https://img.shields.io/github/stars/FEEZAKULSOOM/private-property-rental?style=social)](https://github.com/FEEZAKULSOOM/private-property-rental)
+[![GitHub stars](https://img.shields.io/github/stars/FEEZAKULSOOM/private-property-rental?style=social)](https://github.com/FEEZAKULSOOM/property-rental-website/tree/main)
 
 ---
 
