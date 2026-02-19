@@ -63,7 +63,7 @@
 
 ### 🌐 **Experience Live**
 
-**👉 [https://private-property-rental1.netlify.app/](https://private-property-rental1.netlify.app/)**
+**👉 [https://private-property-rental123.netlify.app/](https://private-property-rental123.netlify.app/)**
 
 | Category | Sample Properties |
 |----------|-------------------|
