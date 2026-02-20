@@ -5,8 +5,8 @@ import { MdLogin } from "react-icons/md";
 // Login page component
 function Login() {
     return (
-        <div id="login" onSubmit={(e) => alert("Login Successfully...👍")}>
-            <form action="">
+        <div id="login">
+            <form onSubmit={(e) => alert("Login Successfully...👍")}>
                 <span id="loginTitle">Login Page</span>
 
                 {/* Email field */}

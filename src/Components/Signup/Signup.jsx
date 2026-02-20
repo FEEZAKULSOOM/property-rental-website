@@ -6,7 +6,7 @@ import { FaUserPlus } from "react-icons/fa";
 function Signup() {
     return (
         <div id="signup">
-            <form action=" " onSubmit={(e) => alert("Signup Successfully...👍")}>
+            <form onSubmit={(e) => alert("Signup Successfully...👍")}>
                 <h1 id="signupTitle">Sign Up</h1>
 
                 {/* Full name field */}
