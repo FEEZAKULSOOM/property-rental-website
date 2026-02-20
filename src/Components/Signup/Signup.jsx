@@ -12,7 +12,8 @@ function Signup() {
 
     return (
         <div id="signup">
-            <form onSubmit={handleSubmit}>
+
+            <form onSubmit={handleSubmit}> {/* Removed action attribute */}
                 <h1 id="signupTitle">Sign Up</h1>
 
                 {/* Full name field */}
