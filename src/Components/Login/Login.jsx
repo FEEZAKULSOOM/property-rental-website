@@ -6,21 +6,17 @@ import { MdLogin } from "react-icons/md";
 function Login() {
     // Handle form submission
     const handleSubmit = (e) => {
-<<<<<<< HEAD
+
         e.preventDefault(); // THIS IS CRITICAL - stops page reload
-=======
-        e.preventDefault(); // Stop page reload
->>>>>>> e9cbcdcc52961db10daf6a4fa7dc0bae7d15ffb0
+
         alert("Login Successfully...👍");
     };
 
     return (
         <div id="login">
-<<<<<<< HEAD
-            <form onSubmit={handleSubmit}> {/* Use handler function */}
-=======
+
             <form onSubmit={handleSubmit}> {/* onSubmit on form, not div */}
->>>>>>> e9cbcdcc52961db10daf6a4fa7dc0bae7d15ffb0
+
                 <span id="loginTitle">Login Page</span>
 
                 {/* Email field */}
