@@ -4,15 +4,21 @@ import { MdLogin } from "react-icons/md";
 
 // Login page component
 function Login() {
+    // Handle form submission
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Stop page reload
+        alert("Login Successfully...👍");
+    };
+
     return (
-        <div id="login" onSubmit={(e) => alert("Login Successfully...👍")}>
-            <form action="">
+        <div id="login">
+            <form onSubmit={handleSubmit}> {/* onSubmit on form, not div */}
                 <span id="loginTitle">Login Page</span>
 
                 {/* Email field */}
                 <div className="list">
                     <label htmlFor="email">Email</label>
-                    <input type="text" id="email" required />
+                    <input type="email" id="email" required />
                 </div>
 
                 {/* Password field */}

@@ -4,9 +4,15 @@ import { FaUserPlus } from "react-icons/fa";
 
 // Signup page component
 function Signup() {
+    // Handle form submission
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Stop page reload
+        alert("Signup Successfully...👍");
+    };
+
     return (
         <div id="signup">
-            <form action=" " onSubmit={(e) => alert("Signup Successfully...👍")}>
+            <form onSubmit={handleSubmit}> {/* Removed action attribute */}
                 <h1 id="signupTitle">Sign Up</h1>
 
                 {/* Full name field */}
