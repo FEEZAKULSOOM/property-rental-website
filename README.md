@@ -63,7 +63,11 @@
 
 ### 🌐 **Experience Live**
 
+<<<<<<< HEAD
 **👉 [https://private-property-rental123.netlify.app/](https://private-property-rental123.netlify.app/)**
+=======
+**👉 [https://private-property-rental1.netlify.app/](https://private-property-rental123.netlify.app/)**
+>>>>>>> 8554530 (changing urlfor hosting)
 
 | Category | Sample Properties |
 |----------|-------------------|
