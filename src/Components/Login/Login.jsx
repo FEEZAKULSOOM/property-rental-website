@@ -10,6 +10,7 @@ function Login() {
         e.preventDefault(); // THIS IS CRITICAL - stops page reload
 
         alert("Login Successfully...👍");
+        e.target.reset();
     };
 
     return (

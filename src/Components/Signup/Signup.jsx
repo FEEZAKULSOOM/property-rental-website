@@ -8,6 +8,7 @@ function Signup() {
     const handleSubmit = (e) => {
         e.preventDefault(); // THIS IS CRITICAL - stops page reload
         alert("Signup Successfully...👍");
+        e.target.reset();
     };
 
     return (
